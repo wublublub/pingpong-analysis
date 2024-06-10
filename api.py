@@ -1,4 +1,4 @@
-from test import get_transition_matrix, get_best_action_and_scores, suggest_best_action
+from Test.test import get_transition_matrix, get_best_action_and_scores, suggest_best_action
 from flask import Flask, json, request
 
 app=Flask(__name__)
